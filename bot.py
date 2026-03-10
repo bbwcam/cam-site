@@ -6,7 +6,7 @@ API = "https://chaturbate.com/api/public/affiliates/onlinerooms/?wm=T2CSW&client
 
 client = Client()
 
-client.login("YOUR_BLUESKY_USERNAME","YOUR_PASSWORD")
+client.login("yourhandle.bsky.social","APP_PASSWORD")
 
 data = requests.get(API).json()
 
