@@ -21,8 +21,7 @@ post = f"""
 
 {room['room_subject']}
 
-Watch live cams:
-https://YOURUSERNAME.github.io/cam-site
+Watch live cams
 """
 
 client.send_post(post)
